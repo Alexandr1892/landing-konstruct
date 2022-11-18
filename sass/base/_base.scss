@@ -1,0 +1,160 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #48555B;
+
+
+
+}
+
+// Responsive
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+
+}
+
+@media(max-width:1140px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media(max-width:767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+
+
+
+// navbar-adaptiv
+
+@media(max-width:680px) {
+    .navbar__row-list {
+        flex-wrap: wrap;
+
+    }
+
+
+    .navbar__row {
+        justify-content: space-around;
+        
+    }
+}
+
+// newsletter-adaptiv
+
+@media(max-width:680px) {
+    .newsletter__row {
+        flex-wrap: nowrap;
+
+    }
+}
+
+
+@media(max-width:492px) {
+    .newsletter__row {
+        flex-wrap: wrap;
+
+    }
+}
+
+@media(max-width:680px) {
+    .newsletter-title {
+        padding: 0;
+        
+
+    }
+
+
+}
+
+@media(max-width:492px) {
+    .newsletter__row {
+        flex-wrap: wrap;
+
+    }
+}
+
+
+// service-adaptiv
+
+
+@media(max-width:680px) {
+    .service__row {
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+
+
+}
+
+
+@media(max-width:680px) {
+    .service__text {
+        margin: 10px;
+    }
+
+    .info-card {
+        margin: 10px;
+
+    }
+
+
+}
+
+@media(max-width:680px) {
+    .card-info {
+        flex-wrap: wrap;
+
+    }
+}
+
+
+// about-adaptiv
+
+@media(max-width:680px) {
+    .about__base {
+        flex-wrap: wrap;
+
+    }
+}
+
+@media(max-width:680px) {
+    .about__cards {
+        flex-wrap: wrap;
+
+    }
+
+    .card-img {
+        margin: 10px;
+    }
+}
+
+
+
+// footer-adaptiv
+
+@media(max-width:680px) {
+    .footer__row {
+        flex-wrap: wrap;
+
+    }
+}
+
+
+
+

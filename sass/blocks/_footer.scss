@@ -1,0 +1,126 @@
+
+
+.footer__back {
+    background: #141A20;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    color: $accent-white;
+
+}
+.block__info {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.info-title {
+
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    padding: 40px 0px 20px 0px;
+}
+
+.info-text {
+    font-family: 'OpenSans',sans-serif;
+    font-size: 11px;
+    line-height: 19px;
+/* or 173% */
+
+    letter-spacing: 0.85px;
+    max-width: 250px;
+    padding: 16px 0px 49px 0px;
+}
+
+.links-row {
+    display: flex;
+    justify-content: space-between;
+
+
+    ul {
+        margin-right: 25px;
+        font-family: 'OpenSans',sans-serif;
+        font-size: 11px;
+        line-height: 25px;
+/* or 227% */
+        letter-spacing: 0.846154px;
+    }
+
+}
+.links-title {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    padding: 40px 0px 20px 0px;
+}
+
+li:hover {
+
+    color: $accent-blue;
+    transition: 0.2s ease-in;
+}
+
+.contacts-title {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    padding: 40px 0px 20px 0px;
+}
+.contacts-row {
+    font-family: 'OpenSans',sans-serif;
+    font-size: 11px;
+    line-height: 25px;
+/* or 227% */
+    letter-spacing: 0.846154px;
+    max-width: 141px;
+}
+
+
+.contacts-tel {
+    margin-top: 10px;
+}
+.contacts-email {
+    margin-top: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials__icon {
+    align-items: center;
+    margin: 72px 25px 155px 0px;
+
+
+    &:hover {
+        opacity: 0.5;
+        transition: 0.2s ease-in;
+    }
+
+}
+
+
+
+.copyright__back {
+    background: #171819;
+}
+
+.footer__copyright {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    letter-spacing: 0.846154px;
+
+    color: #FFFFFF;
+}

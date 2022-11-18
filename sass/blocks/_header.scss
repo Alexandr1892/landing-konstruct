@@ -1,0 +1,64 @@
+.header {
+    background-image: url('/img/logo/bg.png');
+    background-size: cover;
+    background-position: top center;
+    max-width: 100%;
+    // max-height: 769px;
+    top: -1px;
+    left: 0px;
+    color: $accent-white;
+
+
+}
+
+.header__info {
+    display: block;
+    justify-content: center;
+    height: 769px;
+
+
+}
+.header__logo {
+    padding-top: 2.62%;
+    img {
+        margin: auto;
+    }
+    
+
+}
+
+.header__title {
+    padding-top: 30%;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 1%;
+}
+
+.header__text p {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.header__slider {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    text-align: center;
+    margin-top: 210px;
+    
+}
+
+.header__slider :hover {
+
+    text-decoration:underline;
+    transition: 0.2s ease-in;
+
+}

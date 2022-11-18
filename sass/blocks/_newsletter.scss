@@ -1,0 +1,58 @@
+.newsletter {
+
+    background-color: #171819;
+    max-width: 100%;
+    height: 100%;
+}
+
+.newsletter__row {
+    display: flex;
+    justify-content: space-around;
+    color: $accent-white;
+
+}
+.newsletter-title {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    // text-align: center;
+    // align-items: center;
+    letter-spacing: 0.846154px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    
+}
+
+.newsletter__form {
+    display: flex;
+    max-height: 40px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+
+.form__label {
+    max-width: 250px;
+}
+
+.form__input {
+
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07px;
+    text-align: left;
+    align-items: center;
+
+    padding-left: 16px;
+    
+
+}
