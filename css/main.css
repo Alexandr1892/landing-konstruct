@@ -93,7 +93,7 @@ img {
   display: block; }
 
 .header {
-  background-image: url("./img/logo/bg.png");
+  background-image: url("../img/logo/bg.png");
   background-size: cover;
   background-position: top center;
   max-width: 100%;
@@ -290,7 +290,7 @@ img {
 
 .get {
   max-width: 100%;
-  background-image: url("./img/get/bg.png");
+  background-image: url("../img/get/bg.png");
   background-size: cover;
   background-position: top center;
   height: 499px; }
